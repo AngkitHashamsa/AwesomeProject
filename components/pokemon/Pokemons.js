@@ -46,6 +46,16 @@ export default function Pokemons() {
       //   horizontal
       ItemSeparatorComponent={<View style={{ height: 16 }} />}
       ListEmptyComponent={<Text>No Item Found</Text>}
+      ListHeaderComponent={
+        <Text style={{ fontSize: 24, textAlign: "center", marginBottom: 12 }}>
+          Pokemon List
+        </Text>
+      }
+      ListFooterComponent={
+        <Text style={{ fontSize: 24, textAlign: "center", marginBottom: 12 }}>
+          List ends
+        </Text>
+      }
     />
   );
 }

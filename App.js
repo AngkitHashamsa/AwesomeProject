@@ -1,12 +1,14 @@
 import { SafeAreaView, StyleSheet, StatusBar, Platform } from "react-native";
 import Pokemons from "./components/pokemon/Pokemons";
+import PokemonsSection from "./components/pokemon-section";
 export default function App() {
   // console.log(Platform.OS);
   return (
     <SafeAreaView style={styles.container}>
       {/* SafeAreaView IOS */}
       <StatusBar />
-      <Pokemons />
+      {/* <Pokemons /> */}
+      <PokemonsSection />
     </SafeAreaView>
   );
 }
