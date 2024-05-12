@@ -45,6 +45,7 @@ export default function Pokemons() {
       keyExtractor={(PokemonData) => PokemonData.name}
       //   horizontal
       ItemSeparatorComponent={<View style={{ height: 16 }} />}
+      ListEmptyComponent={<Text>No Item Found</Text>}
     />
   );
 }

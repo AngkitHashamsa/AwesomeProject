@@ -5,7 +5,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       {/* SafeAreaView IOS */}
-      {/* <StatusBar /> */}
+      <StatusBar />
       <Pokemons />
     </SafeAreaView>
   );
